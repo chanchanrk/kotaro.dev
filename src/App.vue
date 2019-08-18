@@ -1,28 +1,44 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div id="contents">
+      <Links />
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Links from './components/Links.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Links
   }
 }
 </script>
 
 <style>
+html {
+  height:100%;
+}
+body {
+  height:100%;
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  display:table;
+  width:100%;
+  height:100%;
+}
+#contents {
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+}
+#contents ul {
+  list-style: none;
+  display:inline-block;
+}
+#contents ul li {
+  text-align:left;
 }
 </style>

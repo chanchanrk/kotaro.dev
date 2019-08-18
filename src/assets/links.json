@@ -1,0 +1,22 @@
+[
+   {
+       "service": "Twitter",
+       "url": "https://twitter.com/chanchanrk",
+       "name": "kotaro"
+   },
+   {
+       "service": "はてなブログ",
+       "url": "https://chanchanrk.hatenablog.com/",
+       "name": "chanchanrk"
+   },
+   {
+       "service": "Qiita",
+       "url": "https://chanchanrk.hatenablog.com/",
+       "name": "chanchanrk"
+   },
+   {
+       "service": "GitHub",
+       "url": "https://github.com/chanchanrk",
+       "name": "chanchanrk"
+   }
+]
